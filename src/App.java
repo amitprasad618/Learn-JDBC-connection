@@ -4,7 +4,8 @@ public class App {
         System.out.println("Hello, World!");
 
         CRUD cr = new CRUD();
-        // cr.insert();
+        cr.insert();
+        cr.deleteByName();
         cr.showTable();
 
     }
